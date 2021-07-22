@@ -1,0 +1,65 @@
+body {
+  font-family: "Damion", cursive;
+  font-family: "Titillium Web", sans-serif;
+  margin: 0;
+  font-size: 18px;
+  background-color: #87509c;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+/* container
+======================
+*/
+
+.container {
+  width: 100%;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+/* header
+======================
+*/
+
+.header {
+  padding: 55px 0;
+}
+
+.header__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* nav
+======================
+*/
+
+.nav {
+  display: flex;
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.nav__link {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 30px;
+  padding: 7px;
+}
+
+.nav__link:first-child {
+  margin-left: 0;
+}
+
+.nav__link:hover {
+  background-color: #643a79;
+  border-radius: 5px;
+}
