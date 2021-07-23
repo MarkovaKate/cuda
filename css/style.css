@@ -142,4 +142,5 @@ p {
 
 .btn--orange:hover {
   background-color: #c7531d;
+  box-shadow: 5px 5px 0px #cfbcb2;
 }
